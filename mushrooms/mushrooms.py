@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
 from sklearn.preprocessing import OneHotEncoder
 
-data_file = Path("./data/mushrooms.csv")
+data_file = Path(".") / "mushrooms" / "mushrooms.csv"
 
 data = pd.read_csv(data_file)
 
