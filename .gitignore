@@ -1,0 +1,8 @@
+# Virtual environment
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Mypy cache
+.mypy_cache/
